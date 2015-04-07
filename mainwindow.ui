@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>2</number>
     </property>
     <widget class="QWidget" name="calendarTab">
      <property name="sizePolicy">
@@ -155,7 +155,7 @@
      <widget class="QPushButton" name="addMode">
       <property name="geometry">
        <rect>
-        <x>740</x>
+        <x>730</x>
         <y>410</y>
         <width>95</width>
         <height>31</height>
