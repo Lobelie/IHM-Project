@@ -3,6 +3,8 @@
 
 #include <QDialog>
 
+class MainWindow;
+
 namespace Ui {
 class AddMode;
 }
@@ -12,7 +14,7 @@ class AddMode : public QDialog
     Q_OBJECT
 
 public:
-    explicit AddMode(QWidget *parent = 0);
+    explicit AddMode(MainWindow *w, QWidget *parent = 0);
     ~AddMode();
 
 private slots:
@@ -22,6 +24,7 @@ private slots:
 
 private:
     Ui::AddMode *ui;
+    MainWindow *mainWindow;
 };
 
 #endif // ADDMODE_H

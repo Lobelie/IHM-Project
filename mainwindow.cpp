@@ -15,9 +15,15 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+void MainWindow::addMode(QString s) {
+    QStringList l;
+    l.append(s);
+    this->ui->modeTreeWidget->addTopLevelItem(new QTreeWidgetItem(l));
+}
+
 void MainWindow::on_addMode_clicked()
 {
-    AddMode addmode;
+    AddMode addmode(this);
     addmode.setModal(true);
     addmode.exec();
 }
