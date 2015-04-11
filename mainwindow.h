@@ -22,6 +22,8 @@ private slots:
 
     void on_detailMode_clicked();
 
+    void on_deleteMode_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

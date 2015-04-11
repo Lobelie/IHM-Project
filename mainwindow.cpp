@@ -34,3 +34,11 @@ void MainWindow::on_detailMode_clicked()
     addmode.setModal(true);
     addmode.exec();
 }
+
+void MainWindow::on_deleteMode_clicked()
+{
+    QList<QTreeWidgetItem*> l = this->ui->modeTreeWidget->selectedItems();
+    for(int i = 0; i < l.size(); i++) {
+        delete l.at(i);
+    }
+}
