@@ -39,3 +39,11 @@ void AddMode::on_pushButton_clicked()
     addAppareil.setModal(true);
     addAppareil.exec();
 }
+
+void AddMode::on_pushButton_3_clicked()
+{
+    QList<QTreeWidgetItem*> l = this->ui->treeWidget->selectedItems();
+    for(int i = 0; i < l.size(); i++) {
+        delete l.at(i);
+    }
+}
