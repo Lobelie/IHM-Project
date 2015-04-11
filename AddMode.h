@@ -16,11 +16,14 @@ class AddMode : public QDialog
 public:
     explicit AddMode(MainWindow *w, QWidget *parent = 0);
     ~AddMode();
+    void addAppareil(QString name);
 
 private slots:
     void on_buttonBox_accepted();
 
     void on_buttonBox_rejected();
+
+    void on_pushButton_clicked();
 
 private:
     Ui::AddMode *ui;
