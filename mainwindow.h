@@ -15,6 +15,9 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
     
+private slots:
+    void on_addMode_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
