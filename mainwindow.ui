@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="calendarTab">
      <property name="sizePolicy">
@@ -54,7 +54,7 @@
        <string>Ajouter</string>
       </property>
      </widget>
-     <widget class="QTreeWidget" name="appareilModeWidget">
+     <widget class="QTreeWidget" name="appareilListWidget">
       <property name="geometry">
        <rect>
         <x>10</x>
@@ -221,7 +221,7 @@
      <x>0</x>
      <y>0</y>
      <width>1059</width>
-     <height>21</height>
+     <height>25</height>
     </rect>
    </property>
   </widget>

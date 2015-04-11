@@ -16,6 +16,7 @@ public:
     ~MainWindow();
 
     void addMode(QString s);
+    void addAppareil(QString s);
     
 private slots:
     void on_addMode_clicked();
@@ -23,6 +24,12 @@ private slots:
     void on_detailMode_clicked();
 
     void on_deleteMode_clicked();
+
+    void on_addAppareil_clicked();
+    
+    void on_suppAppareil_clicked();
+
+    void on_detailAppareil_clicked();
 
 private:
     Ui::MainWindow *ui;

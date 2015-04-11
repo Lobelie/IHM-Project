@@ -16,16 +16,19 @@ SOURCES += main.cpp\
     mainwindow.cpp \
     AddMode.cpp \
     AddModeVacances.cpp \
-    AddAppareilToMode.cpp
+    AddAppareilToMode.cpp \
+    NewAppareil.cpp
 
 HEADERS  += mainwindow.h \
     AddMode.h \
     AddModeVacances.h \
-    AddAppareilToMode.h
+    AddAppareilToMode.h \
+    NewAppareil.h
 
 FORMS    += mainwindow.ui \
     AddMode.ui \
     AddModeVacances.ui \
-    AddAppareilToMode.ui
+    AddAppareilToMode.ui \
+    NewAppareil.ui
 
 DISTFILES +=
