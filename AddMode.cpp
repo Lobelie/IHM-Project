@@ -12,3 +12,13 @@ AddMode::~AddMode()
 {
     delete ui;
 }
+
+void AddMode::on_buttonBox_accepted()
+{
+    this->close();
+}
+
+void AddMode::on_buttonBox_rejected()
+{
+    this->close();
+}

@@ -18,6 +18,8 @@ public:
 private slots:
     void on_addMode_clicked();
 
+    void on_detailMode_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

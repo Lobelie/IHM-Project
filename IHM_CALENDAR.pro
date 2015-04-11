@@ -14,10 +14,15 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
     mainwindow.cpp \
-    AddMode.cpp
+    AddMode.cpp \
+    AddModeVacances.cpp
 
 HEADERS  += mainwindow.h \
-    AddMode.h
+    AddMode.h \
+    AddModeVacances.h
 
 FORMS    += mainwindow.ui \
-    AddMode.ui
+    AddMode.ui \
+    AddModeVacances.ui
+
+DISTFILES +=
