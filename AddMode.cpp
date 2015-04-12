@@ -2,6 +2,7 @@
 #include "ui_AddMode.h"
 #include "mainwindow.h"
 #include "AddAppareilToMode.h"
+#include "DetailsAppareilMode.h"
 
 AddMode::AddMode(MainWindow *w, QWidget *parent) :
     QDialog(parent),
@@ -46,4 +47,11 @@ void AddMode::on_pushButton_3_clicked()
     for(int i = 0; i < l.size(); i++) {
         delete l.at(i);
     }
+}
+
+void AddMode::on_pushButton_2_clicked()
+{
+    DetailsAppareilMode detailsAppareil;
+    detailsAppareil.setModal(true);
+    detailsAppareil.exec();
 }

@@ -17,18 +17,27 @@ SOURCES += main.cpp\
     AddMode.cpp \
     AddModeVacances.cpp \
     AddAppareilToMode.cpp \
-    NewAppareil.cpp
+    NewAppareil.cpp \
+    ModifierCreneau.cpp \
+    DetailsAppareilMode.cpp \
+    AddCreneau.cpp
 
 HEADERS  += mainwindow.h \
     AddMode.h \
     AddModeVacances.h \
     AddAppareilToMode.h \
-    NewAppareil.h
+    NewAppareil.h \
+    DetailsAppareilMode.h \
+    ModifierCreneau.h \
+    AddCreneau.h
 
 FORMS    += mainwindow.ui \
     AddMode.ui \
     AddModeVacances.ui \
     AddAppareilToMode.ui \
-    NewAppareil.ui
+    NewAppareil.ui \
+    DetailsAppareilMode.ui \
+    ModifierCreneau.ui \
+    AddCreneau.ui
 
 DISTFILES +=
