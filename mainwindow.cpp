@@ -3,7 +3,6 @@
 #include "AddMode.h"
 #include "AddModeVacances.h"
 #include "NewAppareil.h"
-#include "addthermo.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -73,14 +72,4 @@ void MainWindow::on_detailAppareil_clicked()
     newApp.init(QString(this->ui->appareilListWidget->selectedItems().first()->text(0)));
     newApp.setModal(true);
     newApp.exec();
-}
-
-void MainWindow::on_boutonJeudi_clicked()
-{
-    AddThermo therm(this);
-    therm.setModal(true);
-    therm.exec();
-    this->ui->thermoJeudi->setAutoFillBackground(true);
-    this->ui->thermoJeudi->setText("Chauffage Salon thermo 4");
-    //this->ui->test->setAutoFillBackground(true);
 }

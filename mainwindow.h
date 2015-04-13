@@ -31,8 +31,6 @@ private slots:
 
     void on_detailAppareil_clicked();
 
-    void on_boutonJeudi_clicked();
-
 private:
     Ui::MainWindow *ui;
 };

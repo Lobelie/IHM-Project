@@ -20,8 +20,7 @@ SOURCES += main.cpp\
     NewAppareil.cpp \
     ModifierCreneau.cpp \
     DetailsAppareilMode.cpp \
-    AddCreneau.cpp \
-    addthermo.cpp
+    AddCreneau.cpp
 
 HEADERS  += mainwindow.h \
     AddMode.h \
@@ -30,8 +29,7 @@ HEADERS  += mainwindow.h \
     NewAppareil.h \
     DetailsAppareilMode.h \
     ModifierCreneau.h \
-    AddCreneau.h \
-    addthermo.h
+    AddCreneau.h
 
 FORMS    += mainwindow.ui \
     AddMode.ui \
@@ -40,7 +38,6 @@ FORMS    += mainwindow.ui \
     NewAppareil.ui \
     DetailsAppareilMode.ui \
     ModifierCreneau.ui \
-    AddCreneau.ui \
-    addthermo.ui
+    AddCreneau.ui
 
 DISTFILES +=
