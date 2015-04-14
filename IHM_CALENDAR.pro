@@ -21,7 +21,8 @@ SOURCES += main.cpp\
     ModifierCreneau.cpp \
     DetailsAppareilMode.cpp \
     AddCreneau.cpp \
-    addthermo.cpp
+    addthermo.cpp \
+    wifi.cpp
 
 HEADERS  += mainwindow.h \
     AddMode.h \
@@ -31,7 +32,8 @@ HEADERS  += mainwindow.h \
     DetailsAppareilMode.h \
     ModifierCreneau.h \
     AddCreneau.h \
-    addthermo.h
+    addthermo.h \
+    wifi.h
 
 FORMS    += mainwindow.ui \
     AddMode.ui \
@@ -41,6 +43,7 @@ FORMS    += mainwindow.ui \
     DetailsAppareilMode.ui \
     ModifierCreneau.ui \
     AddCreneau.ui \
-    addthermo.ui
+    addthermo.ui \
+    wifi.ui
 
 DISTFILES +=

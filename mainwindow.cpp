@@ -4,6 +4,7 @@
 #include "AddModeVacances.h"
 #include "NewAppareil.h"
 #include "addthermo.h"
+#include "wifi.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -53,11 +54,19 @@ void MainWindow::on_deleteMode_clicked()
     this->ui->comboBox->removeItem(3);
 }
 
+/*
 void MainWindow::on_addAppareil_clicked()
 {
     NewAppareil newApp(this);
     newApp.init(QString(""));
     newApp.setModal(true);
+    newApp.exec();
+}
+*/
+
+void MainWindow::on_addAppareil_clicked()
+{
+    wifi newApp(this);
     newApp.exec();
 }
 
