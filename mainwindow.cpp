@@ -21,6 +21,7 @@ void MainWindow::addMode(QString s) {
     QStringList l;
     l.append(s);
     this->ui->modeTreeWidget->addTopLevelItem(new QTreeWidgetItem(l));
+    this->ui->comboBox->addItem(s);
 }
 
 void MainWindow::addAppareil(QString s) {
@@ -49,6 +50,7 @@ void MainWindow::on_deleteMode_clicked()
     for(int i = 0; i < l.size(); i++) {
         delete l.at(i);
     }
+    this->ui->comboBox->removeItem(3);
 }
 
 void MainWindow::on_addAppareil_clicked()
